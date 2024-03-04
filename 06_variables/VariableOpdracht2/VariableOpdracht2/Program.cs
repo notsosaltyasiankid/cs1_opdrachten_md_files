@@ -11,6 +11,11 @@ namespace VariableOpdracht2
             //ga naar de file TwitchStream.cs in je solution explorer in visual studio
             TwitchStream twitchStream = new TwitchStream();
 
+            twitchStream.streamGame = new Game("Skyrim");
+            twitchStream.naam = "doug doug";
+            twitchStream.naam2 = "lastStreamName";
+            twitchStream.volgers = 1000;
+            twitchStream.automod = true;
             //geef nu de stream de volgende waardes:
             //name, waarde: je favoriete streamer
             //lastStreamName, waarde: de streamname van de laatste keer

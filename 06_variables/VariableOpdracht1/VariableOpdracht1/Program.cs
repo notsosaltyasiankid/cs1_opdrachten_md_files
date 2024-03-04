@@ -12,10 +12,12 @@ namespace VariableOpdracht1
             //1 type=string, naam: name, waarde je favoriete rpg character
             //2 type=int, naam: hp, een waarde van hoeveel health dit character heeft
             //3 type=int, naam: str, een waarde van hoe sterk dit character is
-
+            string kyle = "Kyle";
+            int hp = 100;
+            int str = 50;
 
             //nu zou de statement hieronder moeten werken
-            Console.WriteLine($"{name} {hp} {str}");
+            Console.WriteLine( $"{kyle},{hp},{str}");
         }
     }
 

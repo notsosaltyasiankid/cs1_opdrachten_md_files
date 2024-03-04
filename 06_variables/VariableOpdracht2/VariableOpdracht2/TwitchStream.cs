@@ -10,6 +10,10 @@ namespace VariableOpdracht2
         // type=Game, naam: streamGame
         // type=int, naam: followers
         // type=bool, naam: automod
-        
+        internal string naam;
+        internal string naam2;
+        internal Game streamGame;
+        internal int volgers;
+        internal bool automod;
     }
 }
