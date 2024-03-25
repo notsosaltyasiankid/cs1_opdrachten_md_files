@@ -6,7 +6,7 @@ namespace IfOpdracht4
     {
         internal bool flying;
         internal bool incoporial; //ghost
-
+        
         internal bool subterranian;
         internal bool swimmer;
     }
